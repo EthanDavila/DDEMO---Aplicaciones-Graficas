@@ -1,0 +1,62 @@
+body{
+    background-color: #E6E6E6;
+}
+
+header, .main, footer{
+    max-width: 90%;
+    margin: 20px auto;    
+}
+
+header nav{
+    background-color: #499AD9;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    margin-left: 50px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+.main .articles{
+    width: 70%;
+    float: left;
+}
+
+.main .articles article{
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+aside{
+
+    width: 30%;
+    background-color:rgb(255, 72, 16);
+    color: white;
+    float:left;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+footer p{
+    background-color: black;
+    padding: 15px;
+    clear: both;
+    color: white;
+    text-align: center;
+}
